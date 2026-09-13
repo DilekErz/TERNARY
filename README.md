@@ -7,9 +7,9 @@ Bu proje, yazılım geliştirme stajım kapsamında Ternary Neural Network (TNN)
 
 Ternary Neural Network yapısında normalde ondalıklı değerlerden oluşan sinir ağı ağırlıkları üç farklı değere indirgenir:
 
--1
-0
-+1
+- 1
+- 0
+- +1
 
 Bu projede temel amaç, bu dönüşümün çalışma mantığını öğrenmek ve ağırlıkların ternary hale getirilmesinin model performansı üzerindeki etkisini gözlemlemektir.
 
@@ -17,9 +17,9 @@ Bu projede temel amaç, bu dönüşümün çalışma mantığını öğrenmek ve
 
 Ağırlıkların ternary değerlere dönüştürülmesi için bir eşik değeri kullanılmaktadır.
 
-weight > delta   → +1
-weight < -delta  → -1
-diğer durumlar   → 0
+- weight > delta   → +1
+- weight < -delta  → -1
+- diğer durumlar   → 0
 
 Projede dinamik eşik değeri aşağıdaki şekilde hesaplanmıştır:
 
