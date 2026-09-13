@@ -96,8 +96,8 @@ Ternary dönüşümden sonra model aynı test verileri üzerinde tekrar çalış
 SONUÇLAR
 -------------------------------
 
-Normal Neural Network : %XX.XX
-Ternary Neural Network: %XX.XX
+Normal Neural Network : %96.67
+Ternary Neural Network: %90.00
 
 Bu karşılaştırma ile ternary quantization işleminin model doğruluğu üzerindeki etkisi gözlemlenmiştir.
 
