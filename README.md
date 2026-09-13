@@ -47,9 +47,9 @@ def quantize_weights(weights, threshold_ratio=0.15):
 Model uygulamasında Scikit-learn içerisinde bulunan Iris veri seti kullanılmıştır.
 Veri setinde üç farklı çiçek sınıfı bulunmaktadır:
 
--Iris Setosa
--Iris Versicolor
--Iris Virginica
+- Iris Setosa
+- Iris Versicolor
+- Iris Virginica
 
 Veriler %80 eğitim ve %20 test olacak şekilde ayrılmış, sınıf dağılımının korunması için stratify=y kullanılmıştır. Giriş verileri ayrıca StandardScaler ile ölçeklendirilmiştir.
 
@@ -102,28 +102,28 @@ Ternary Neural Network: %90.00
 Bu karşılaştırma ile ternary quantization işleminin model doğruluğu üzerindeki etkisi gözlemlenmiştir.
 
 ## Proje Dosyaları
--ternary-nn.py — Ternary quantization mantığı, threshold/delta hesaplama, Tensor işlemleri ve temel Neural Network ağırlık dönüşümlerini içerir.
--ternary-nn2.py — Iris veri seti üzerinde Neural Network eğitimi, ternary quantization ve normal/ternary model karşılaştırmasını içerir.
+- ternary-nn.py — Ternary quantization mantığı, threshold/delta hesaplama, Tensor işlemleri ve temel Neural Network ağırlık dönüşümlerini içerir.
+- ternary-nn2.py — Iris veri seti üzerinde Neural Network eğitimi, ternary quantization ve normal/ternary model karşılaştırmasını içerir.
 ## Kullanılan Teknolojiler
--Python
--PyTorch
--Scikit-learn
--NumPy
--Git & GitHub
+- Python
+- PyTorch
+- Scikit-learn
+- NumPy
+- Git & GitHub
 ## Öğrenilen Konular
--Ternary Neural Network (TNN)
--Weight Quantization
--Full-Precision Weights
--Threshold ve Delta
--PyTorch Tensor işlemleri
--Artificial Neural Networks
--ReLU
--CrossEntropyLoss
--Adam Optimizer
--Backpropagation
--Train/Test Split
--Feature Scaling
--Model Accuracy
+- Ternary Neural Network (TNN)
+- Weight Quantization
+- Full-Precision Weights
+- Threshold ve Delta
+- PyTorch Tensor işlemleri
+- Artificial Neural Networks
+- ReLU
+- CrossEntropyLoss
+- Adam Optimizer
+- Backpropagation
+- Train/Test Split
+- Feature Scaling
+- Model Accuracy
 ## Sonuç
 
 Bu çalışma ile Ternary Neural Network ve weight quantization yapısının temel çalışma mantığı uygulamalı olarak incelenmiştir. Normal floating-point ağırlıkların -1, 0 ve +1 değerlerine dönüştürülmesi gerçekleştirilmiş ve bu dönüşüm Iris veri seti üzerinde eğitilen bir Neural Network modeline uygulanmıştır.
