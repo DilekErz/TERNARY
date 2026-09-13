@@ -58,11 +58,11 @@ Veriler %80 eğitim ve %20 test olacak şekilde ayrılmış, sınıf dağılım�
 PyTorch kullanılarak basit bir fully connected Neural Network oluşturulmuştur.
 
 `4 Giriş`
-   ↓
+↓  
 `8 Nöronlu Gizli Katman`
-   ↓
+↓  
 `ReLU`
-   ↓
+↓  
 `3 Çıkış`
 
 Model:
